@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  background-color: #f3f3f3;
+}
+.title {
+  font-size: 1.5em;
+  text-align: center;
+  color: #333;
+}
+.genre, .pages {
+  text-align: center;
+  color: #333;
+}
+.reviews {
+  list-style-type: none;
+}
+.reviews li {
+  margin: 0.5em;
+  padding: 0.5em;
+  background-color: #eee;
+}
+.reviews li:hover {
+  background-color: #ddd;
+}
+.reviews li .review-author {
+  font-size: 1.3em;
+  font-weight: bold;
+  font-style: italic;
+}
+.reviews li .review-text {
+  font-size: 1.1em;
+}
+.reviews li h3, .reviews li p {
+  cursor: default;
+}
